@@ -1,0 +1,11 @@
+LINUX SECURITY AUDIT REPORT
+Generated: 2026-10-18 23:47:50
+Risk Level: MEDIUM
+
+Failed logins: 3
+Open ports: 5
+
+OK: Firewall is active
+OK: Only root has root power
+WARNING: 1 suspicious IP(s) detected
+OK: No monitored files changed
