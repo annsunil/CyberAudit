@@ -27,13 +27,11 @@ sudo python3 security_audit.py
 - The first run creates `baseline.json`, which stores the fingerprints of the monitored files. Later runs compare against it.
 - To reset the baseline after a change you made on purpose, delete `baseline.json` and run again.
 
-
 ## How the risk score works
-| Finding | Points |
-| Firewall not running | 3 |
-| Extra root-level account | 3 |
-| Suspicious IP (3+ failed logins) | 2 |
-| Monitored file changed | 2 |
+- Firewall not running = 3 
+- Extra root-level account = 3 
+- Suspicious IP (3+ failed logins) = 2 
+- Monitored file changed = 2 
 
 Total of 0 = **LOW**, 1-3 = **MEDIUM**, 4+ = **HIGH**
 
